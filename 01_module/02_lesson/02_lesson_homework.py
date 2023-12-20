@@ -46,10 +46,17 @@ while division_remainder != 1:
             mnozhnyky.append(i)
             break
 
+bit = 1
+while True:
+    if user_number // 10 ** bit == 0:
+        break
+    else:
+        bit += 1
+
 message = '-'
 for i in mnozhnyky:
     message += f' {i}'
-print(f'# 4. Множниками числа {user_number} є {message}')
+print(f'# 4. Множниками числа {user_number} є {message}, число {user_number} має {bit} розрядів')
 
 # LEVEL 3
 
