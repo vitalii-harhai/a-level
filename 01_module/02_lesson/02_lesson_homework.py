@@ -56,7 +56,7 @@ while True:
 message = '-'
 for i in mnozhnyky:
     message += f' {i}'
-print(f'# 4. Множниками числа {user_number} є {message}, число {user_number} має {bit} розрядів')
+print(f'# 4. Множниками числа {user_number} є {message}, число {user_number} має {bit} розрядів.')
 
 # LEVEL 3
 
